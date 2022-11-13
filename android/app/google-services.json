@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1031051140536",
+    "project_id": "fir-af05d",
+    "storage_bucket": "fir-af05d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031051140536:android:f8941e881261e86632c34d",
+        "android_client_info": {
+          "package_name": "com.example.lookinyou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031051140536-ehe7c2208tv0a88trmiekgpbeps0tm99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCETB-1UII3vmBasup3JdRqZgT5uOQI3Eo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031051140536-ehe7c2208tv0a88trmiekgpbeps0tm99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
