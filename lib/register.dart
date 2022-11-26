@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:lookinyou/MyHomePage.dart';
 import 'package:lookinyou/auth_service.dart';
-import 'package:lookinyou/homePage.dart';
-import 'package:lookinyou/lgin.dart';
+import 'MyHomePage.dart';
+
 import 'package:lookinyou/login.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:page_transition/page_transition.dart';
@@ -190,7 +191,7 @@ class _registerState extends State<register> {
                                       final result = await Navigator.push(
                                         context,
                                         MaterialPageRoute(
-                                          builder: (context) => homePage(),
+                                          builder: (context) => MyHomePage(),
                                         ),
                                       );
                                     },

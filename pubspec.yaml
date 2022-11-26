@@ -38,6 +38,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   get: ^4.6.5
   readmore: ^2.2.0
+  flutter_rating_bar: ^4.0.1
+  google_fonts: ^3.0.1
   
 
 dev_dependencies:
@@ -75,6 +77,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+    
     - assets/login.png
     - assets/look_login.png
     - assets/judul_login.png
@@ -104,10 +107,22 @@ flutter:
     - assets/boro_2.png
     - assets/boro_3.png
     - assets/boro_4.png
+    - assets/boro_5.png
+    - assets/boro_6.png
     - assets/mapBoro.png
     - assets/avatar1.png
     - assets/starulasan.png
     - assets/FOOD.png
+    - assets/back_profil.png
+    - assets/prof_icon.png
+    - assets/museum.png
+    - assets/bukit.png
+    - assets/ulasan_foto.png
+    - assets/ulasan_foto.png
+    - assets/air_terjun.png
+    - assets/pantai.png
+
+    
     
     
   #   - images/a_dot_burr.jpeg

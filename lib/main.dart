@@ -2,10 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:lookinyou/auth_service.dart';
 import 'package:lookinyou/detailPage.dart';
 import 'package:lookinyou/login.dart';
+import 'package:lookinyou/profile.dart';
 import 'package:lookinyou/register.dart';
+import 'package:lookinyou/searchPage.dart';
 import 'package:lookinyou/splashScreen.dart';
 import 'auth_service.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -20,6 +23,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    final textTheme = Theme.of(context).textTheme;
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
@@ -35,7 +39,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const detailPage(),
+      home: const profile(),
     );
   }
 }
