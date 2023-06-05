@@ -468,6 +468,7 @@ class _detailPageState extends State<detailPage> with TickerProviderStateMixin {
                                                                     fontSize:
                                                                         10))),
                                                       ),
+                                                      
                                                       Positioned(
                                                         top: 115,
                                                         left: 22,
