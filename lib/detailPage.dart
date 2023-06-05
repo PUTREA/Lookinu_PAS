@@ -64,7 +64,7 @@ class _detailPageState extends State<detailPage> with TickerProviderStateMixin {
               Container(
                 child: Stack(children: [
                   Container(
-                    padding: EdgeInsets.all(417.4),
+                    padding: EdgeInsets.all(400.4),
                     decoration: BoxDecoration(
                         image: DecorationImage(
                             fit: BoxFit.fitWidth,
@@ -77,7 +77,7 @@ class _detailPageState extends State<detailPage> with TickerProviderStateMixin {
                       top: 305,
                       left: -2,
                       child: Container(
-                        width: 400,
+                        width: 380,
                         height: 600,
                         decoration: BoxDecoration(
                             color: Color.fromARGB(255, 255, 255, 255),
@@ -189,7 +189,7 @@ class _detailPageState extends State<detailPage> with TickerProviderStateMixin {
                             ),
                             isScrollable: true,
                             labelPadding:
-                                const EdgeInsets.only(left: 22, right: 22),
+                                const EdgeInsets.only(left: 16, right: 16),
                             controller: _tabController,
                             labelColor: Colors.black,
                             unselectedLabelColor: Colors.grey,
@@ -383,8 +383,8 @@ class _detailPageState extends State<detailPage> with TickerProviderStateMixin {
                                                                           0)
                                                                   .withOpacity(
                                                                       0.5),
-                                                              spreadRadius: 2,
-                                                              blurRadius: 5,
+                                                              spreadRadius: 1,
+                                                              blurRadius: 3,
                                                               offset: Offset(0,
                                                                   3), // changes position of shadow
                                                             ),
@@ -472,7 +472,7 @@ class _detailPageState extends State<detailPage> with TickerProviderStateMixin {
                                                         top: 115,
                                                         left: 22,
                                                         child: Container(
-                                                          width: 320,
+                                                          width: 290,
                                                           child: ReadMoreText(
                                                             'Tempatnya Unik, luas, dan nyaman pastinyaa. Fasilitas lengkap add kamar mandi, toilet dan disini juga terdapat, berbagai wahana yang sangat bagus ',
                                                             trimLines: 2,
@@ -504,7 +504,7 @@ class _detailPageState extends State<detailPage> with TickerProviderStateMixin {
                                                         top: 180,
                                                         left: 22,
                                                         child: Container(
-                                                            width: 320,
+                                                            width: 290,
                                                             child: Image.asset(
                                                                 'assets/FOOD.png')),
                                                       ),
@@ -628,7 +628,7 @@ class _detailPageState extends State<detailPage> with TickerProviderStateMixin {
                                                       top: 115,
                                                       left: 22,
                                                       child: Container(
-                                                        width: 320,
+                                                        width: 290,
                                                         child: ReadMoreText(
                                                           'Tempatnya Unik, luas, dan nyaman pastinyaa. Fasilitas lengkap add kamar mandi, toilet dan disini juga terdapat, berbagai wahana yang sangat bagus ',
                                                           trimLines: 2,
@@ -660,7 +660,7 @@ class _detailPageState extends State<detailPage> with TickerProviderStateMixin {
                                                       top: 180,
                                                       left: 22,
                                                       child: Container(
-                                                          width: 320,
+                                                          width: 290,
                                                           child: Image.asset(
                                                               'assets/FOOD.png')),
                                                     ),
@@ -786,7 +786,7 @@ class _detailPageState extends State<detailPage> with TickerProviderStateMixin {
                                                       top: 115,
                                                       left: 22,
                                                       child: Container(
-                                                        width: 320,
+                                                        width: 290,
                                                         child: ReadMoreText(
                                                           'Tempatnya Unik, luas, dan nyaman pastinyaa. Fasilitas lengkap add kamar mandi, toilet dan disini juga terdapat, berbagai wahana yang sangat bagus ',
                                                           trimLines: 2,
@@ -818,7 +818,7 @@ class _detailPageState extends State<detailPage> with TickerProviderStateMixin {
                                                       top: 180,
                                                       left: 22,
                                                       child: Container(
-                                                          width: 320,
+                                                          width: 290,
                                                           child: Image.asset(
                                                               'assets/FOOD.png')),
                                                     ),
@@ -941,7 +941,7 @@ class _detailPageState extends State<detailPage> with TickerProviderStateMixin {
                                                       top: 115,
                                                       left: 22,
                                                       child: Container(
-                                                        width: 320,
+                                                        width: 290,
                                                         child: ReadMoreText(
                                                           'Tempatnya Unik, luas, dan nyaman pastinyaa. Fasilitas lengkap add kamar mandi, toilet dan disini juga terdapat, berbagai wahana yang sangat bagus ',
                                                           trimLines: 2,
@@ -973,7 +973,7 @@ class _detailPageState extends State<detailPage> with TickerProviderStateMixin {
                                                       top: 180,
                                                       left: 22,
                                                       child: Container(
-                                                          width: 320,
+                                                          width: 290,
                                                           child: Image.asset(
                                                               'assets/FOOD.png')),
                                                     ),
@@ -1096,7 +1096,7 @@ class _detailPageState extends State<detailPage> with TickerProviderStateMixin {
                                                       top: 115,
                                                       left: 22,
                                                       child: Container(
-                                                        width: 320,
+                                                        width: 290,
                                                         child: ReadMoreText(
                                                           'Tempatnya Unik, luas, dan nyaman pastinyaa. Fasilitas lengkap add kamar mandi, toilet dan disini juga terdapat, berbagai wahana yang sangat bagus ',
                                                           trimLines: 2,
@@ -1128,7 +1128,7 @@ class _detailPageState extends State<detailPage> with TickerProviderStateMixin {
                                                       top: 180,
                                                       left: 22,
                                                       child: Container(
-                                                          width: 320,
+                                                          width: 290,
                                                           child: Image.asset(
                                                               'assets/FOOD.png')),
                                                     ),
@@ -1251,7 +1251,7 @@ class _detailPageState extends State<detailPage> with TickerProviderStateMixin {
                                                       top: 115,
                                                       left: 22,
                                                       child: Container(
-                                                        width: 320,
+                                                        width: 290,
                                                         child: ReadMoreText(
                                                           'Tempatnya Unik, luas, dan nyaman pastinyaa. Fasilitas lengkap add kamar mandi, toilet dan disini juga terdapat, berbagai wahana yang sangat bagus ',
                                                           trimLines: 2,
@@ -1283,7 +1283,7 @@ class _detailPageState extends State<detailPage> with TickerProviderStateMixin {
                                                       top: 180,
                                                       left: 22,
                                                       child: Container(
-                                                          width: 320,
+                                                          width: 290,
                                                           child: Image.asset(
                                                               'assets/FOOD.png')),
                                                     ),
@@ -1406,7 +1406,7 @@ class _detailPageState extends State<detailPage> with TickerProviderStateMixin {
                                                       top: 115,
                                                       left: 22,
                                                       child: Container(
-                                                        width: 320,
+                                                        width: 290,
                                                         child: ReadMoreText(
                                                           'Tempatnya Unik, luas, dan nyaman pastinyaa. Fasilitas lengkap add kamar mandi, toilet dan disini juga terdapat, berbagai wahana yang sangat bagus ',
                                                           trimLines: 2,
@@ -1438,7 +1438,7 @@ class _detailPageState extends State<detailPage> with TickerProviderStateMixin {
                                                       top: 180,
                                                       left: 21,
                                                       child: Container(
-                                                          width: 320,
+                                                          width: 290,
                                                           child: Image.asset(
                                                               'assets/FOOD.png')),
                                                     ),

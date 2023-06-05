@@ -31,24 +31,7 @@ class _profileState extends State<profile> {
           icon: const Icon(Icons.arrow_back_ios),
           color: Colors.white,
         ),
-        title: Column(
-          children: [
-            Container(
-              child: Center(
-                  child: Column(
-                children: const [
-                  Center(
-                    child: Text(
-                      'PROFILE',
-                      style:
-                          TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
-                    ),
-                  ),
-                ],
-              )),
-            )
-          ],
-        ),
+
         elevation: 0,
       ),
       extendBodyBehindAppBar: true,
